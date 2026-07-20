@@ -10,7 +10,7 @@
   "main": "index.js",
   "keywords": [],
   "dependencies": {
-    "express":"5.1.0"
+    "express": "5.1.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.7",
@@ -28,7 +28,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1 && jest",
-    "pretest": "eslint ."
+    "pretest": "eslint .",
+    "start": "node lib/index.js"
   },
   "license": "ISC",
   "lint-staged": {
