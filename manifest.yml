@@ -3,6 +3,6 @@ applications:
     memory: 256M
     instances: 1
     routes:
-      - route: simple-node.cfapps.us10-001.hana.ondemand.com
+      - route: my_node_app.cert.cfapps.us10-003.hana.ondemand.com
     buildpacks:
       - nodejs_buildpack
